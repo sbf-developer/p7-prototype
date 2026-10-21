@@ -35,3 +35,7 @@ The Sources page links to Beredskabsstyrelsen, Styrelsen for Samfundssikkerhed, 
 ## Validation
 
 JavaScript syntax and static structure checked. Desktop and 390 px mobile layouts visually reviewed. Saved agreement persistence, language switching, message-review branches and the complete three-step exercise tested in the browser. Offline export generation checked; reopening a downloaded file in a fully disconnected browser remains a manual acceptance check.
+
+## Visual design
+
+The interface uses a navy navigation bar, neutral surfaces and a typographic wordmark rather than an invented authority crest. `styles.css` contains responsive layouts. The household overview shows actual stored selections, not a readiness score. Offline exports embed the stylesheet so the downloaded file remains self-contained.
